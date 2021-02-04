@@ -4,6 +4,7 @@ import { Header } from "./components/Header";
 import { Banner } from "./components/Banner";
 import { AboutUs } from "./components/AboutUs";
 import { Footer } from "./components/Footer";
+import { FrontPage } from "./components/FrontPage";
 import Headroom from "react-headroom";
 
 import bannerMaterial from "./const/bannerMaterial.js";
@@ -14,6 +15,7 @@ function App() {
       <Headroom>
         <Header />
       </Headroom>
+      <FrontPage></FrontPage>
       {bannerMaterial.map((val, index) => {
         return (
           <Banner
