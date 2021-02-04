@@ -18,8 +18,8 @@ const frontPageStyle = {
   title: {
     color: "#FFF",
     textAlign: "center",
-    fontSize: "26px",
-    // textIndent: "2rem",
+    fontSize: "36px",
+    fontWeight: 'bolder',
   },
 };
 
