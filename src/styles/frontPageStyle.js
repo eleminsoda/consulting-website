@@ -18,7 +18,7 @@ const frontPageStyle = {
   title: {
     color: "#FFF",
     textAlign: "center",
-    fontSize: "36px",
+    fontSize: "76px",
     fontWeight: 'bolder',
   },
 };
