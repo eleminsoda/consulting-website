@@ -23,6 +23,7 @@ function App() {
             index={index}
             imgSrc={val.imgSrc}
             text={val.text}
+            subText={val.subText}
           />
         );
       })}
