@@ -28,8 +28,15 @@ const bannerStyle = {
     textAlign: "center",
     whiteSpace: "pre-wrap",
 
+    transition: "all 0.3s",
+    // webkit-transition:all 0.1s;
+    // -moz-transition:all 0.1s;
+    // -o-transition:all 0.1s;
+    // transition:all 0.1s;
+
     "&:hover": {
-      fontSize: "34px",
+      // fontSize: "34px",
+      transform: "scale(1.2)",
     },
   },
 
@@ -50,8 +57,7 @@ const bannerStyle = {
   subText: {
     transform: "skew(30deg)",
     color: "white",
-    textAlign: 'center',
-    
+    textAlign: "center",
   },
 };
 
