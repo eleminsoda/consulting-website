@@ -16,6 +16,9 @@ export function Footer(props) {
           <li>地址：中国（上海）自由贸易试验区马吉路2号1101室</li>
         </ul>
       </div>
+      <a href="https://beian.miit.gov.cn/" className={classes.beian}>
+        沪ICP备18024651号-1
+      </a>
     </div>
   );
 }

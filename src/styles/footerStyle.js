@@ -18,16 +18,25 @@ const footerStyle = {
   },
 
   text: {
+    width: "20vw",
+    margin: "0 auto",
     fontSize: "20px",
     margin: 0,
-    marginBottom: "30px",
   },
 
   contact: {
-    margin: "30px 100px",
+    width: "50vw",
+    margin: "30px auto",
     textIndent: "2em",
     fontSize: "16px",
     listStyle: "none",
+  },
+
+  beian: {
+    display: "block",
+    textAlign: "center",
+    textDecoration: "none",
+    color: "black",
   },
 };
 
